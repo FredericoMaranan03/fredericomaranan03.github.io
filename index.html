@@ -663,6 +663,57 @@ section {
     margin-bottom: 7px;
 }
 
+
+/* EXPERIENCE LOGOS */
+
+.exp-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.exp-logo {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 7px;
+    box-shadow: 0 4px 14px rgba(16,29,50,.07);
+}
+
+.exp-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.exp-fallback {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: var(--navy);
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+.exp-info .company {
+    margin-bottom: 0;
+}
+
+@media(max-width: 550px) {
+    .exp-logo { width: 46px; height: 46px; padding: 5px; }
+    .exp-head { gap: 12px; }
+}
+
 /* SKILLS */
 
 .skills {
@@ -894,6 +945,30 @@ section {
 
 .contact-phone:hover {
     color: var(--gold);
+}
+
+
+.contact-email,
+.contact-phone {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 1px solid rgba(201,163,107,.7);
+    background: rgba(201,163,107,.12);
+    color: var(--gold);
+}
+
+.contact-phone .contact-icon {
+    color: #ffffff;
 }
 
 .contact-location {
@@ -1277,14 +1352,14 @@ accounting, media operations, administration, and customer service.
 
 <div class="experience-item">
 
-<p class="experience-date">October 2024 – Present</p>
+<div class="exp-head"><span class="exp-logo"><span class="exp-fallback">FC</span></span><div class="exp-info"><p class="experience-date">October 2024 – Present</p>
 
 <h3>Executive Assistant (Part-time)</h3>
 
 <p class="company">
 Fairka Consulting in Tax and Accounting |
 Calgary, Alberta, Canada
-</p>
+</p></div></div>
 
 <ul>
 <li>Manage and organize over 100 emails daily, prioritizing and responding as directed.</li>
@@ -1299,13 +1374,13 @@ Calgary, Alberta, Canada
 
 <div class="experience-item">
 
-<p class="experience-date">February 2022 – December 2025</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=abs-cbn.com&sz=128" alt="ABS-CBN Corporation logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">AB</span></span><div class="exp-info"><p class="experience-date">February 2022 – December 2025</p>
 
 <h3>Media Encoder</h3>
 
 <p class="company">
 ABS-CBN Corporation | Quezon City, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Encoded and processed commercial spots from major Philippine advertisers for television and radio.</li>
@@ -1319,13 +1394,13 @@ ABS-CBN Corporation | Quezon City, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">November 2021 – February 2022</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=abs-cbn.com&sz=128" alt="ABS-CBN Corporation logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">AB</span></span><div class="exp-info"><p class="experience-date">November 2021 – February 2022</p>
 
 <h3>Material Handler – Business Operations Support</h3>
 
 <p class="company">
 ABS-CBN Corporation | Quezon City, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Maintained the master database of materials and products for television commercial spots.</li>
@@ -1338,13 +1413,13 @@ ABS-CBN Corporation | Quezon City, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">April 2021 – July 2021</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=psa.gov.ph&sz=128" alt="Philippine Statistics Authority logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">PSA</span></span><div class="exp-info"><p class="experience-date">April 2021 – July 2021</p>
 
 <h3>Statistical Researcher</h3>
 
 <p class="company">
 Philippine Statistics Authority | Batangas, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Listed active and inactive businesses and establishments.</li>
@@ -1358,13 +1433,13 @@ Philippine Statistics Authority | Batangas, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">April 2020 – October 2020</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=psa.gov.ph&sz=128" alt="Philippine Statistics Authority logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">PSA</span></span><div class="exp-info"><p class="experience-date">April 2020 – October 2020</p>
 
 <h3>Team Supervisor</h3>
 
 <p class="company">
 Philippine Statistics Authority | Batangas, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Supervised 28 census enumerators within the assigned supervisory area.</li>
@@ -1378,13 +1453,13 @@ Philippine Statistics Authority | Batangas, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">May 2019 – September 2019</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=abs-cbn.com&sz=128" alt="ABS-CBN Corporation logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">AB</span></span><div class="exp-info"><p class="experience-date">May 2019 – September 2019</p>
 
 <h3>Accounting Specialist</h3>
 
 <p class="company">
 ABS-CBN Corporation | Quezon City, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Prepared and analyzed Statements of Account.</li>
@@ -1399,13 +1474,13 @@ ABS-CBN Corporation | Quezon City, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">May 2018 – May 2019</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=abs-cbn.com&sz=128" alt="ABS-CBN Corporation logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">AB</span></span><div class="exp-info"><p class="experience-date">May 2018 – May 2019</p>
 
 <h3>Media Encoder</h3>
 
 <p class="company">
 ABS-CBN Corporation | Quezon City, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Encoded and processed television and radio commercial spots.</li>
@@ -1419,13 +1494,13 @@ ABS-CBN Corporation | Quezon City, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">November 2017 – May 2018</p>
+<div class="exp-head"><span class="exp-logo"><img src="https://www.google.com/s2/favicons?domain=iqor.com&sz=128" alt="IQOR Philippines logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="exp-fallback" style="display:none">iQ</span></span><div class="exp-info"><p class="experience-date">November 2017 – May 2018</p>
 
 <h3>Customer Service Representative</h3>
 
 <p class="company">
 IQOR Philippines | Pampanga, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Resolved customer concerns and complaints for MetroPCS accounts through phone support.</li>
@@ -1438,13 +1513,13 @@ IQOR Philippines | Pampanga, Philippines
 
 <div class="experience-item">
 
-<p class="experience-date">May 2017 – November 2017</p>
+<div class="exp-head"><span class="exp-logo"><span class="exp-fallback">TD</span></span><div class="exp-info"><p class="experience-date">May 2017 – November 2017</p>
 
 <h3>Virtual Assistant</h3>
 
 <p class="company">
 TopData Global IT Solutions | Pampanga, Philippines
-</p>
+</p></div></div>
 
 <ul>
 <li>Prepared and submitted weekly sales reports using Google Sheets.</li>
@@ -1789,20 +1864,11 @@ administrative support, bookkeeping, and operations coordination.
 Let's discuss how I can contribute to your organization.
 </p>
 
-<a href="mailto:fredericomaranan@gmail.com"
-class="contact-email">
-
-fredericomaranan@gmail.com
-
-</a>
+<a href="mailto:fredericomaranan@gmail.com" class="contact-email"><span class="contact-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>fredericomaranan@gmail.com</a>
 
 <br>
 
-<a href="tel:+639241227416" class="contact-phone">
-
-+63 924 122 7416
-
-</a>
+<a href="tel:+639241227416" class="contact-phone"><span class="contact-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>+63 924 122 7416</a>
 
 <br>
 
