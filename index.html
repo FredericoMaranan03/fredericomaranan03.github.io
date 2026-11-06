@@ -705,6 +705,25 @@ section {
     letter-spacing: .5px;
 }
 
+
+.exp-logo.exp-wide {
+    width: auto;
+    height: 56px;
+    padding: 6px 9px;
+}
+
+.exp-logo.exp-wide img {
+    width: auto;
+    height: 100%;
+    max-width: 112px;
+    object-fit: contain;
+}
+
+@media(max-width: 550px) {
+    .exp-logo.exp-wide { height: 46px; padding: 5px 8px; }
+    .exp-logo.exp-wide img { max-width: 88px; }
+}
+
 .exp-info .company {
     margin-bottom: 0;
 }
@@ -805,24 +824,6 @@ section {
 }
 
 /* Distinct, locally rendered brand-color tiles: no external logo service required. */
-.tool:nth-child(1)  { --brand-color: #13B5EA; }
-.tool:nth-child(2)  { --brand-color: #263238; }
-.tool:nth-child(3)  { --brand-color: #F06A6A; }
-.tool:nth-child(4)  { --brand-color: #7B68EE; }
-.tool:nth-child(5)  { --brand-color: #F4A6A6; }
-.tool:nth-child(6)  { --brand-color: #4285F4; }
-.tool:nth-child(7)  { --brand-color: #D83B01; }
-.tool:nth-child(8)  { --brand-color: #008AAB; }
-.tool:nth-child(9)  { --brand-color: #2368F2; }
-.tool:nth-child(10) { --brand-color: #34A853; }
-.tool:nth-child(11) { --brand-color: #217346; }
-.tool:nth-child(12) { --brand-color: #0078D4; }
-.tool:nth-child(13) { --brand-color: #412991; }
-.tool:nth-child(14) { --brand-color: #D97757; }
-.tool:nth-child(15) { --brand-color: #258FFA; }
-.tool:nth-child(16) { --brand-color: #243B53; }
-.tool:nth-child(17) { --brand-color: #0E8EE9; }
-.tool:nth-child(18) { --brand-color: #FA0F00; }
 
 /* PORTFOLIO */
 
@@ -1593,113 +1594,131 @@ financial, communication, and project coordination tasks.
 </p>
 
 <div class="tools">
-<div class="tool">
+<div class="tool" style="--brand-color:#13B5EA">
     <span class="tool-logo-wrap">
         <img src="https://cdn.simpleicons.org/xero/13B5EA" data-fb="https://www.google.com/s2/favicons?domain=xero.com&sz=128" alt="Xero logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">XE</span>
     </span>
     <span>Xero</span>
 </div>
-<div class="tool">
+<div class="tool" style="--brand-color:#263238">
     <span class="tool-logo-wrap">
         <img src="https://www.google.com/s2/favicons?domain=hubdoc.com&sz=128" data-fb="" alt="Hubdoc logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">HD</span>
     </span>
     <span>Hubdoc</span>
 </div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/asana/F06A6A" data-fb="https://www.google.com/s2/favicons?domain=asana.com&sz=128" alt="Asana logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AS</span>
-    </span>
-    <span>Asana</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/clickup/7B68EE" data-fb="https://www.google.com/s2/favicons?domain=clickup.com&sz=128" alt="ClickUp logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">CU</span>
-    </span>
-    <span>ClickUp</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://www.google.com/s2/favicons?domain=honeybook.com&sz=128" data-fb="" alt="HoneyBook logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">HB</span>
-    </span>
-    <span>HoneyBook</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/googleworkspace/4285F4" data-fb="https://www.google.com/s2/favicons?domain=workspace.google.com&sz=128" alt="Google Workspace logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">GW</span>
-    </span>
-    <span>Google Workspace</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/microsoftoffice/D83B01" data-fb="https://www.google.com/s2/favicons?domain=office.com&sz=128" alt="Microsoft Office logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">MO</span>
-    </span>
-    <span>Microsoft Office</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://www.google.com/s2/favicons?domain=atb.com&sz=128" data-fb="" alt="ATB logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">ATB</span>
-    </span>
-    <span>ATB</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://www.google.com/s2/favicons?domain=anyviewer.com&sz=128" data-fb="" alt="AnyViewer logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AV</span>
-    </span>
-    <span>AnyViewer</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/googlesheets/34A853" data-fb="https://www.google.com/s2/favicons?domain=sheets.google.com&sz=128" alt="Google Sheets logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">GS</span>
-    </span>
-    <span>Google Sheets</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/microsoftexcel/217346" data-fb="https://www.google.com/s2/favicons?domain=office.com&sz=128" alt="Microsoft Excel logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">XL</span>
-    </span>
-    <span>Microsoft Excel</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/microsoftoutlook/0078D4" data-fb="https://www.google.com/s2/favicons?domain=outlook.com&sz=128" alt="Microsoft Outlook logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">OL</span>
-    </span>
-    <span>Microsoft Outlook</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/openai/412991" data-fb="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" alt="ChatGPT logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AI</span>
-    </span>
-    <span>ChatGPT</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/claude/D97757" data-fb="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" alt="Claude AI logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">CL</span>
-    </span>
-    <span>Claude AI</span>
-</div>
-<div class="tool">
-    <span class="tool-logo-wrap">
-        <img src="https://cdn.simpleicons.org/microsoftcopilot/258FFA" data-fb="https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=128" alt="Microsoft Copilot logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">CO</span>
-    </span>
-    <span>Microsoft Copilot</span>
-</div>
-<div class="tool">
+<div class="tool" style="--brand-color:#243B53">
     <span class="tool-logo-wrap">
         <img src="https://www.google.com/s2/favicons?domain=taxcycle.com&sz=128" data-fb="" alt="TaxCycle logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">TC</span>
     </span>
     <span>TaxCycle</span>
 </div>
-<div class="tool">
+<div class="tool" style="--brand-color:#008AAB">
+    <span class="tool-logo-wrap">
+        <img src="https://www.google.com/s2/favicons?domain=atb.com&sz=128" data-fb="" alt="ATB logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">ATB</span>
+    </span>
+    <span>ATB</span>
+</div>
+<div class="tool" style="--brand-color:#1B6EF3">
+    <span class="tool-logo-wrap">
+        <img src="https://www.google.com/s2/favicons?domain=helcim.com&sz=128" data-fb="" alt="Helcim logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">HE</span>
+    </span>
+    <span>Helcim</span>
+</div>
+<div class="tool" style="--brand-color:#217346">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/microsoftexcel/217346" data-fb="https://www.google.com/s2/favicons?domain=office.com&sz=128" alt="Microsoft Excel logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">XL</span>
+    </span>
+    <span>Microsoft Excel</span>
+</div>
+<div class="tool" style="--brand-color:#34A853">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/googlesheets/34A853" data-fb="https://www.google.com/s2/favicons?domain=sheets.google.com&sz=128" alt="Google Sheets logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">GS</span>
+    </span>
+    <span>Google Sheets</span>
+</div>
+<div class="tool" style="--brand-color:#0078D4">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/microsoftoutlook/0078D4" data-fb="https://www.google.com/s2/favicons?domain=outlook.com&sz=128" alt="Microsoft Outlook logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">OL</span>
+    </span>
+    <span>Microsoft Outlook</span>
+</div>
+<div class="tool" style="--brand-color:#4285F4">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/googleworkspace/4285F4" data-fb="https://www.google.com/s2/favicons?domain=workspace.google.com&sz=128" alt="Google Workspace logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">GW</span>
+    </span>
+    <span>Google Workspace</span>
+</div>
+<div class="tool" style="--brand-color:#D83B01">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/microsoftoffice/D83B01" data-fb="https://www.google.com/s2/favicons?domain=office.com&sz=128" alt="Microsoft Office logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">MO</span>
+    </span>
+    <span>Microsoft Office</span>
+</div>
+<div class="tool" style="--brand-color:#F06A6A">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/asana/F06A6A" data-fb="https://www.google.com/s2/favicons?domain=asana.com&sz=128" alt="Asana logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AS</span>
+    </span>
+    <span>Asana</span>
+</div>
+<div class="tool" style="--brand-color:#7B68EE">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/clickup/7B68EE" data-fb="https://www.google.com/s2/favicons?domain=clickup.com&sz=128" alt="ClickUp logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">CU</span>
+    </span>
+    <span>ClickUp</span>
+</div>
+<div class="tool" style="--brand-color:#F4A6A6">
+    <span class="tool-logo-wrap">
+        <img src="https://www.google.com/s2/favicons?domain=honeybook.com&sz=128" data-fb="" alt="HoneyBook logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">HB</span>
+    </span>
+    <span>HoneyBook</span>
+</div>
+<div class="tool" style="--brand-color:#1F9BDE">
+    <span class="tool-logo-wrap">
+        <img src="https://www.google.com/s2/favicons?domain=timedoctor.com&sz=128" data-fb="" alt="Time Doctor logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">TD</span>
+    </span>
+    <span>Time Doctor</span>
+</div>
+<div class="tool" style="--brand-color:#2FB45A">
+    <span class="tool-logo-wrap">
+        <img src="https://www.google.com/s2/favicons?domain=timecamp.com&sz=128" data-fb="" alt="TimeCamp logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">TC</span>
+    </span>
+    <span>TimeCamp</span>
+</div>
+<div class="tool" style="--brand-color:#0E8EE9">
     <span class="tool-logo-wrap">
         <img src="https://cdn.simpleicons.org/teamviewer/0E8EE9" data-fb="https://www.google.com/s2/favicons?domain=teamviewer.com&sz=128" alt="TeamViewer logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">TV</span>
     </span>
     <span>TeamViewer</span>
 </div>
-<div class="tool">
+<div class="tool" style="--brand-color:#2368F2">
+    <span class="tool-logo-wrap">
+        <img src="https://www.google.com/s2/favicons?domain=anyviewer.com&sz=128" data-fb="" alt="AnyViewer logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AV</span>
+    </span>
+    <span>AnyViewer</span>
+</div>
+<div class="tool" style="--brand-color:#FA0F00">
     <span class="tool-logo-wrap">
         <img src="https://cdn.simpleicons.org/adobe/FA0F00" data-fb="https://www.google.com/s2/favicons?domain=adobe.com&sz=128" alt="Adobe Tools logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AD</span>
     </span>
     <span>Adobe Tools</span>
+</div>
+<div class="tool" style="--brand-color:#412991">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/openai/412991" data-fb="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" alt="ChatGPT logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">AI</span>
+    </span>
+    <span>ChatGPT</span>
+</div>
+<div class="tool" style="--brand-color:#D97757">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/claude/D97757" data-fb="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" alt="Claude AI logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">CL</span>
+    </span>
+    <span>Claude AI</span>
+</div>
+<div class="tool" style="--brand-color:#258FFA">
+    <span class="tool-logo-wrap">
+        <img src="https://cdn.simpleicons.org/microsoftcopilot/258FFA" data-fb="https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=128" alt="Microsoft Copilot logo" width="44" height="44" loading="lazy" style="width:44px;height:44px;object-fit:contain" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb=''}else{this.style.display='none';this.nextElementSibling.style.display='grid'}"><span class="tool-fallback" style="display:none">CO</span>
+    </span>
+    <span>Microsoft Copilot</span>
 </div>
 </div>
 
